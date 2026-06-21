@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="JItnBWarz5YXMGvdXFiE">
-    <mxGraphModel dx="3201" dy="2380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1777" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,7 +280,7 @@
         <mxCell id="yhaDnNcCBT4VVBDCAUdl-37" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Бухгалтер 1&#xa;10.10.30.11" vertex="1">
           <mxGeometry height="73" width="78" x="440" y="-635" as="geometry" />
         </mxCell>
-        <mxCell id="yhaDnNcCBT4VVBDCAUdl-38" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Бухгалтер 2&#xa;10.10.15.20" vertex="1">
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-38" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Бухгалтер 2&#xa;10.10.30.12" vertex="1">
           <mxGeometry height="77" width="78" x="567" y="-639" as="geometry" />
         </mxCell>
         <mxCell id="yhaDnNcCBT4VVBDCAUdl-42" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="yhaDnNcCBT4VVBDCAUdl-37">
