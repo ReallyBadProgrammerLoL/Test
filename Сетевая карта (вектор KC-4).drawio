@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="JItnBWarz5YXMGvdXFiE">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3708" dy="3395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
           <mxGeometry height="50" width="110" x="-312.5" y="-817.5" as="geometry" />
         </mxCell>
         <mxCell id="-r0obxcL4KgrFZX8nTF1-14" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.security.router_firewall;" value="MikroTik RB3011UiAS-RM&lt;br&gt;10.10.1.1" vertex="1">
-          <mxGeometry height="62" width="78" x="-17.5" y="-1009" as="geometry" />
+          <mxGeometry height="62" width="78" x="-16.5" y="-983" as="geometry" />
         </mxCell>
         <mxCell id="yhaDnNcCBT4VVBDCAUdl-33" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" target="yhaDnNcCBT4VVBDCAUdl-25">
           <mxGeometry relative="1" as="geometry">
@@ -199,7 +199,7 @@
           <mxGeometry height="20" width="150" x="61.5" y="-817.5" as="geometry" />
         </mxCell>
         <mxCell id="-r0obxcL4KgrFZX8nTF1-37" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#803CFF;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.file_server;fillStyle=auto;" value="&lt;div&gt;Synology&lt;/div&gt;&lt;div&gt;DS220+&lt;br&gt;10.10.25.10&lt;br&gt;VLAN 25&lt;/div&gt;" vertex="1">
-          <mxGeometry height="88" width="71.5" x="-117.5" y="-608" as="geometry" />
+          <mxGeometry height="88" width="71.5" x="-28.25" y="-584" as="geometry" />
         </mxCell>
         <mxCell id="-r0obxcL4KgrFZX8nTF1-40" parent="1" style="text;whiteSpace=wrap;" value="TCP 445 (SMB)" vertex="1">
           <mxGeometry height="50" width="110" x="-71.5" y="-660" as="geometry" />
@@ -344,39 +344,120 @@
         <mxCell id="yhaDnNcCBT4VVBDCAUdl-57" parent="1" style="text;whiteSpace=wrap;" value="TCP 9100 (RAWPrint)&#xa;TCP 80 (HTTPWeb UI)" vertex="1">
           <mxGeometry height="40" width="140" x="660" y="-500" as="geometry" />
         </mxCell>
-
-    <mxCell id="kc4_title" value="Вектор атаки KC-4: внутренний нарушитель — администратор ИТ/ИБ (Н2). Злоупотребление полномочиями &#8594; НСД к содержанию ПДн &#8594; эксфильтрация и монетизация &#8594; подмена платёжных реквизитов и сокрытие следов" style="text;html=1;align=left;fontSize=13;fontStyle=1;fontColor=#B20000;" vertex="1" parent="1"><mxGeometry x="-360" y="-1392" width="1080" height="24" as="geometry"/></mxCell>
-    <mxCell id="kc4_attacker" value="Атакующий&#10;(внутренний: администратор ИТ/ИБ, Н2)" style="shape=mxgraph.basic.actor;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=10;" vertex="1" parent="1"><mxGeometry x="540" y="-1085" width="130" height="85" as="geometry"/></mxCell>
-    <mxCell id="kc4_e0" value="Внутренний нарушитель: легитимные права админа, привилегированное АРМ (VLAN 15)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kc4_attacker" target="Q6j8U8kHXT8ma1ibuV0W-2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="490" y="-1042"/><mxPoint x="428" y="-1042"/></Array></mxGeometry></mxCell>
-
-    <mxCell id="kc4_b1" value="1. Разведка (T1087.002 / T1083): по служебным знаниям об инфраструктуре — определение мест хранения ПДн: учётная база PostgreSQL (10.10.20.12), сканы и резервные копии на NAS (10.10.25.10). LDAP TCP/389, SSH TCP/22." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="470" y="-1010" width="260" height="86" as="geometry"/></mxCell>
-    <mxCell id="kc4_c1" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc4_b1" target="Q6j8U8kHXT8ma1ibuV0W-2"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-    <mxCell id="kc4_e2" value="2. Первоначальный доступ (T1078.003 / T1133): легитимные SSH/RDP-подключения и доступ к Proxmox WebUI (TCP 8006) с привилегированного АРМ (VLAN 15)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q6j8U8kHXT8ma1ibuV0W-2" target="-r0obxcL4KgrFZX8nTF1-15"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="428" y="-1185"/><mxPoint x="-287" y="-1185"/></Array></mxGeometry></mxCell>
-
-    <mxCell id="kc4_e3" value="3. Закрепление (T1136.001 / T1098): создание теневой УЗ в AD и добавление SSH-ключа (LDAP TCP/389)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.2;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" target="-r0obxcL4KgrFZX8nTF1-21"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-490" y="-724"/><mxPoint x="-490" y="-788"/></Array></mxGeometry></mxCell>
-
-    <mxCell id="kc4_b4" value="4. Дамп учётных данных (T1003.006 / T1555): извлечение хэшей доменных УЗ с контроллера домена (репликация каталога, Netlogon RPC) и сервисных паролей 1С." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-1015" y="-905" width="275" height="72" as="geometry"/></mxCell>
-    <mxCell id="kc4_c4" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc4_b4" target="-r0obxcL4KgrFZX8nTF1-21"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-    <mxCell id="kc4_e5" value="5. Внутренняя разведка (T1083 / T1082): перечень ВМ и снимков в Proxmox (TCP 8006); выявление томов учётной базы и резервных копий на NAS (SMB TCP/445)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" target="-r0obxcL4KgrFZX8nTF1-37"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-200" y="-683"/><mxPoint x="-200" y="-572"/></Array></mxGeometry></mxCell>
-
-    <mxCell id="kc4_e6a" value="6. Боковое перемещение (T1021.002 / T1078): прямой доступ VLAN 15 &#8594; сервер 1С (SSH TCP/22)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" target="-r0obxcL4KgrFZX8nTF1-25"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-470" y="-674"/><mxPoint x="-470" y="-680"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc4_e6b" value="6. &#8594; СУБД PostgreSQL (TCP 5432) и NAS (SMB TCP/445)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.95;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" target="-r0obxcL4KgrFZX8nTF1-28"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-450" y="-662"/><mxPoint x="-450" y="-549"/></Array></mxGeometry></mxCell>
-
-    <mxCell id="kc4_b7" value="7. Повышение привилегий (T1611 / T1068): получение прав root на гипервизоре Proxmox; доступ к дисковым образам всех ВМ в обход разграничения доступа гостевых ОС." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-1015" y="-820" width="275" height="78" as="geometry"/></mxCell>
-    <mxCell id="kc4_c7" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc4_b7" target="-r0obxcL4KgrFZX8nTF1-15"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-690" y="-781"/><mxPoint x="-690" y="-620"/><mxPoint x="-347" y="-620"/></Array></mxGeometry></mxCell>
-
-    <mxCell id="kc4_e8a" value="8. Эксфильтрация (T1005): дамп PostgreSQL (TCP 5432) + сканы первичных документов копируются с NAS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" target="-r0obxcL4KgrFZX8nTF1-37"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-300" y="-549"/><mxPoint x="-300" y="-547"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc4_e8b" value="8. Вывод данных (T1052.001 / T1567): на съёмный носитель (USB) и во внешнее хранилище (HTTPS TCP/443)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-37" target="-r0obxcL4KgrFZX8nTF1-1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-200" y="-564"/><mxPoint x="-200" y="-1096"/></Array></mxGeometry></mxCell>
-
-    <mxCell id="kc4_e9" value="9. ЦЕЛЬ (Impact, T1565.001): подмена платёжных реквизитов в учётной базе 1С" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#B20000;strokeWidth=3;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" target="-r0obxcL4KgrFZX8nTF1-25"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-
-    <mxCell id="kc4_b9" value="9. Воздействие (ЦЕЛЬ, T1070.001 / T1565.001 / T1485): продажа выгруженной базы ПДн работников и контрагентов третьим лицам; шантаж оператора и субъектов ПДн (выкуп за неразглашение); хищение средств подменой платёжных реквизитов в 1С; искажение и удаление журналов аудита — сокрытие следов. Прямая выгода." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-1015" y="-715" width="300" height="120" as="geometry"/></mxCell>
-    <mxCell id="kc4_c9" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc4_b9" target="-r0obxcL4KgrFZX8nTF1-25"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-    <mxCell id="kc4_legend" value="Легенда KC-4:&#10;&#8594; красная стрелка = сетевой переход (с номером шага)&#10;пунктирный блок = локальное действие на узле (с номером шага)&#10;розовый блок = недопустимое последствие / выгода&#10;Нарушитель внутренний (Н2): доступ преимущественно по легитимным каналам VLAN 15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B20000;fontColor=#B20000;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="120" y="-160" width="360" height="105" as="geometry"/></mxCell>
-
+        <mxCell id="kc4_title" parent="1" style="text;html=1;align=left;fontSize=13;fontStyle=1;fontColor=#B20000;" value="Вектор атаки KC-4: внутренний нарушитель — администратор ИТ/ИБ (Н2). Злоупотребление полномочиями → НСД к содержанию ПДн → эксфильтрация и монетизация → подмена платёжных реквизитов и сокрытие следов" vertex="1">
+          <mxGeometry height="24" width="1080" x="-360" y="-1392" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_e0" edge="1" parent="1" source="8zkQjTOlUDZeRehwTq9E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q6j8U8kHXT8ma1ibuV0W-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="-1149" />
+              <mxPoint x="490" y="-1042" />
+              <mxPoint x="429" y="-1042" />
+            </Array>
+            <mxPoint x="860" y="-1147.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_b1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" value="1. Разведка (T1087.002 / T1083): по служебным знаниям об инфраструктуре — определение мест хранения ПДн: учётная база PostgreSQL (10.10.20.12), сканы и резервные копии на NAS (10.10.25.10). LDAP TCP/389, SSH TCP/22." vertex="1">
+          <mxGeometry height="86" width="260" x="470" y="-1010" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_c1" edge="1" parent="1" source="kc4_b1" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="Q6j8U8kHXT8ma1ibuV0W-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_e2" edge="1" parent="1" source="Q6j8U8kHXT8ma1ibuV0W-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-r0obxcL4KgrFZX8nTF1-15" value="2. Первоначальный доступ (T1078.003 / T1133): легитимные SSH/RDP-подключения и доступ к Proxmox WebUI (TCP 8006) с привилегированного АРМ (VLAN 15)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="-1185" />
+              <mxPoint x="-287" y="-1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_e3" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.2;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-r0obxcL4KgrFZX8nTF1-21" value="3. Закрепление (T1136.001 / T1098): создание теневой УЗ в AD и добавление SSH-ключа (LDAP TCP/389)">
+          <mxGeometry relative="1" x="-0.0062" y="-16" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-490" y="-724" />
+              <mxPoint x="-490" y="-788" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_b4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" value="4. Дамп учётных данных (T1003.006 / T1555): извлечение хэшей доменных УЗ с контроллера домена (репликация каталога, Netlogon RPC) и сервисных паролей 1С." vertex="1">
+          <mxGeometry height="72" width="275" x="-1180" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_c4" edge="1" parent="1" source="kc4_b4" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="-r0obxcL4KgrFZX8nTF1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_e5" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.7;exitDx=0;exitDy=0;" target="-r0obxcL4KgrFZX8nTF1-37" value="5. Внутренняя разведка (T1083 / T1082): перечень ВМ и снимков в Proxmox (TCP 8006); выявление томов учётной базы и резервных копий на NAS (SMB TCP/445)">
+          <mxGeometry relative="1" x="-0.0383" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-200" y="-683" />
+              <mxPoint x="-200" y="-572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_e6a" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="-r0obxcL4KgrFZX8nTF1-25" value="6. Боковое перемещение (T1021.002 / T1078): прямой доступ VLAN 15 → сервер 1С (SSH TCP/22)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-470" y="-674" />
+              <mxPoint x="-470" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_e6b" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.95;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-r0obxcL4KgrFZX8nTF1-28" value="6. → СУБД PostgreSQL (TCP 5432) и NAS (SMB TCP/445)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-450" y="-662" />
+              <mxPoint x="-450" y="-549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_b7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" value="7. Повышение привилегий (T1611 / T1068): получение прав root на гипервизоре Proxmox; доступ к дисковым образам всех ВМ в обход разграничения доступа гостевых ОС." vertex="1">
+          <mxGeometry height="78" width="275" x="-1297.5" y="-585" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_c7" edge="1" parent="1" source="kc4_b7" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="-r0obxcL4KgrFZX8nTF1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-800" y="-550" />
+              <mxPoint x="-610" y="-470" />
+              <mxPoint x="-320" y="-470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_e8a" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="-r0obxcL4KgrFZX8nTF1-37" value="8. Эксфильтрация (T1005): дамп PostgreSQL (TCP 5432) + сканы первичных документов копируются с NAS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="-549" />
+              <mxPoint x="-300" y="-547" />
+              <mxPoint x="-28" y="-547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_e8b" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-r0obxcL4KgrFZX8nTF1-1" value="8. Вывод данных (T1052.001 / T1567): на съёмный носитель (USB) и во внешнее хранилище (HTTPS TCP/443)">
+          <mxGeometry relative="1" x="0.6663" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-120" y="-564" />
+              <mxPoint x="-120" y="-1096" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_e9" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#B20000;strokeWidth=3;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-r0obxcL4KgrFZX8nTF1-25" value="9. ЦЕЛЬ (Impact, T1565.001): подмена платёжных реквизитов в учётной базе 1С">
+          <mxGeometry relative="1" x="0.1447" y="-71" as="geometry">
+            <mxPoint x="-5" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc4_b9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=9;align=left;verticalAlign=top;" value="9. Воздействие (ЦЕЛЬ, T1070.001 / T1565.001 / T1485): продажа выгруженной базы ПДн работников и контрагентов третьим лицам; шантаж оператора и субъектов ПДн (выкуп за неразглашение); хищение средств подменой платёжных реквизитов в 1С; искажение и удаление журналов аудита — сокрытие следов. Прямая выгода." vertex="1">
+          <mxGeometry height="120" width="300" x="-1310" y="-755" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_c9" edge="1" parent="1" source="kc4_b9" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="-r0obxcL4KgrFZX8nTF1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc4_legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B20000;fontColor=#B20000;fontSize=10;align=left;verticalAlign=top;" value="Легенда KC-4:&#xa;→ красная стрелка = сетевой переход (с номером шага)&#xa;пунктирный блок = локальное действие на узле (с номером шага)&#xa;розовый блок = недопустимое последствие / выгода&#xa;Нарушитель внутренний (Н2): доступ преимущественно по легитимным каналам VLAN 15" vertex="1">
+          <mxGeometry height="105" width="360" x="120" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="8zkQjTOlUDZeRehwTq9E-1" parent="1" style="strokeColor=#b85450;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#f8cecc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.people.standing_man_2;" value="&#xa;&lt;span style=&quot;color: rgb(178, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Внутренний нарушитель: легитимные права админа, привилегированное АРМ (VLAN 15)&lt;/span&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="62" width="22" x="810" y="-911" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
