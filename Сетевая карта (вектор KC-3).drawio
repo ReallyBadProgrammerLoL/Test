@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="JItnBWarz5YXMGvdXFiE">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4222" dy="3659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,29 +344,95 @@
         <mxCell id="yhaDnNcCBT4VVBDCAUdl-57" parent="1" style="text;whiteSpace=wrap;" value="TCP 9100 (RAWPrint)&#xa;TCP 80 (HTTPWeb UI)" vertex="1">
           <mxGeometry height="40" width="140" x="660" y="-500" as="geometry" />
         </mxCell>
-      
-    <mxCell id="kc3_title" value="Вектор атаки KC-3: удалённый доступ (OpenVPN) + RCE веб-приложений Jira/Gitea &#8594; локальный root &#8594; эксфильтрация ПДн и кода &#8594; шифрование и выкуп" style="text;html=1;align=left;fontSize=13;fontStyle=1;fontColor=#B20000;" vertex="1" parent="1"><mxGeometry x="-360" y="-1392" width="980" height="24" as="geometry"/></mxCell>
-    <mxCell id="kc3_attacker" value="Атакующий&#10;(внешний: хакеры Н1 / преступная группа Н3)" style="shape=mxgraph.basic.actor;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=10;" vertex="1" parent="1"><mxGeometry x="-355" y="-1305" width="130" height="85" as="geometry"/></mxCell>
-    <mxCell id="kc3_e1" value="1. Разведка: обнаружение опубликованного OpenVPN (UDP 1194); сбор УЗ по утечкам" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="kc3_attacker" target="-r0obxcL4KgrFZX8nTF1-1"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-    <mxCell id="kc3_e2a" value="2. Доступ в VPN-пул: подбор/утечка УЗ OpenVPN (UDP 1194), без MFA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.8;entryX=1;entryY=0.5;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-1" target="yhaDnNcCBT4VVBDCAUdl-26"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="-1062"/><mxPoint x="250" y="-175"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc3_e2b" value="2. RCE Jira 8.5.4: CVE-2020-36239 (Ehcache RMI, TCP 8080)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-26" target="yhaDnNcCBT4VVBDCAUdl-8"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-606" y="-175"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc3_b3" value="3. Закрепление: systemd-юнит и задание cron на сервере Jira; обратный канал через VPN-туннель" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-990" y="-372" width="265" height="52" as="geometry"/></mxCell>
-    <mxCell id="kc3_b4" value="4. Дамп УЗ: учётные данные СУБД и сервисные пароли из конфигов Jira/Gitea; приватные SSH-ключи и токены" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-990" y="-312" width="265" height="56" as="geometry"/></mxCell>
-    <mxCell id="kc3_b5" value="5. Внутренняя разведка: сканирование VLAN 20; выявление сервера 1С и СУБД (5432 — только с 1С)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-990" y="-250" width="265" height="52" as="geometry"/></mxCell>
-    <mxCell id="kc3_c3" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc3_b3" target="yhaDnNcCBT4VVBDCAUdl-8"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="kc3_c4" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc3_b4" target="yhaDnNcCBT4VVBDCAUdl-8"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="kc3_c5" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc3_b5" target="yhaDnNcCBT4VVBDCAUdl-8"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="kc3_e6" value="6. Боковое перемещение: SSH по похищенным ключам (TCP 22) &#8594; сервер 1С" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.3;entryX=0;entryY=0.7;" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-8" target="-r0obxcL4KgrFZX8nTF1-25"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-665" y="-265"/><mxPoint x="-665" y="-680"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc3_b7" value="7. Повышение привилегий: локальный root на 1С/СУБД (Ubuntu 20.04, ядро 5.4) — CVE-2021-3156 / CVE-2021-3493" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-990" y="-660" width="265" height="56" as="geometry"/></mxCell>
-    <mxCell id="kc3_c7" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc3_b7" target="-r0obxcL4KgrFZX8nTF1-25"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="kc3_e8a" value="8. Эксфильтрация: дамп PostgreSQL (TCP 5432) &#8212; ПДн работников и контрагентов" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-25" target="-r0obxcL4KgrFZX8nTF1-28"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-    <mxCell id="kc3_e8b" value="8. Выгрузка исходного кода из Gitea (TCP 3000/2222)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-8" target="yhaDnNcCBT4VVBDCAUdl-9"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-700" y="-279"/><mxPoint x="-700" y="-950"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc3_e8c" value="8. Вывод данных наружу через VPN-туннель" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" target="yhaDnNcCBT4VVBDCAUdl-26"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-606" y="-470"/><mxPoint x="-54" y="-470"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc3_e9" value="9. Воздействие (ЦЕЛЬ): шифрование" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#B20000;strokeWidth=3;dashed=1;exitX=1;exitY=0;entryX=1;entryY=0.5;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-25" target="yhaDnNcCBT4VVBDCAUdl-9"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-560" y="-699"/><mxPoint x="-560" y="-950"/></Array></mxGeometry></mxCell>
-    <mxCell id="kc3_b9" value="9. Воздействие (ЦЕЛЬ): шифрование сервера 1С, СУБД и репозиториев Gitea; удаление резервных копий — остановка учётных процессов и разработки. Прямая выгода: выкуп за расшифровку и за неразглашение ПДн и исходного кода." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-990" y="-590" width="275" height="90" as="geometry"/></mxCell>
-    <mxCell id="kc3_c9" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc3_b9" target="-r0obxcL4KgrFZX8nTF1-28"><mxGeometry relative="1" as="geometry"/></mxCell>
-    <mxCell id="kc3_legend" value="Легенда KC-3:&#10;&#8594; красная стрелка = сетевой переход (с номером шага)&#10;пунктирный блок = локальное действие на узле (с номером шага)&#10;розовый блок = недопустимое последствие / выгода" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B20000;fontColor=#B20000;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="120" y="-150" width="340" height="92" as="geometry"/></mxCell>
-  </root>
+        <mxCell id="kc3_e1" edge="1" parent="1" source="CCjn9hCTaxj20trMQdj3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;" target="-r0obxcL4KgrFZX8nTF1-1" value="1. Разведка: обнаружение опубликованного OpenVPN (UDP 1194); сбор УЗ по утечкам">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-375.5" y="-1262.4545454545457" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc3_e2a" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.8;entryX=1;entryY=0.5;" target="yhaDnNcCBT4VVBDCAUdl-26" value="2. Доступ в VPN-пул: подбор/утечка УЗ OpenVPN (UDP 1194), без MFA">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="-1062" />
+              <mxPoint x="250" y="-175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc3_e2b" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" target="yhaDnNcCBT4VVBDCAUdl-8" value="2. RCE Jira 8.5.4: CVE-2020-36239 (Ehcache RMI, TCP 8080)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-606" y="-175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc3_b3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" value="3. Закрепление: systemd-юнит и задание cron на сервере Jira; обратный канал через VPN-туннель" vertex="1">
+          <mxGeometry height="52" width="265" x="-1160" y="-401" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_b4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" value="4. Дамп УЗ: учётные данные СУБД и сервисные пароли из конфигов Jira/Gitea; приватные SSH-ключи и токены" vertex="1">
+          <mxGeometry height="56" width="265" x="-1200" y="-315" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_b5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" value="5. Внутренняя разведка: сканирование VLAN 20; выявление сервера 1С и СУБД (5432 — только с 1С)" vertex="1">
+          <mxGeometry height="52" width="265" x="-1180" y="-221" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_c3" edge="1" parent="1" source="kc3_b3" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="yhaDnNcCBT4VVBDCAUdl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_c4" edge="1" parent="1" source="kc3_b4" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="yhaDnNcCBT4VVBDCAUdl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_c5" edge="1" parent="1" source="kc3_b5" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="yhaDnNcCBT4VVBDCAUdl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_e6" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.3;entryX=0;entryY=0.7;" target="-r0obxcL4KgrFZX8nTF1-25" value="6. Боковое перемещение: SSH по похищенным ключам (TCP 22) → сервер 1С">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-665" y="-265" />
+              <mxPoint x="-665" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc3_b7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" value="7. Повышение привилегий: локальный root на 1С/СУБД (Ubuntu 20.04, ядро 5.4) — CVE-2021-3156 / CVE-2021-3493" vertex="1">
+          <mxGeometry height="56" width="265" x="-1100" y="-734.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_c7" edge="1" parent="1" source="kc3_b7" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="-r0obxcL4KgrFZX8nTF1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_e8a" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="-r0obxcL4KgrFZX8nTF1-28" value="8. Эксфильтрация: дамп PostgreSQL (TCP 5432) — ПДн работников и контрагентов">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_e8b" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0;entryX=0;entryY=0.5;" target="yhaDnNcCBT4VVBDCAUdl-9" value="8. Выгрузка исходного кода из Gitea (TCP 3000/2222)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-700" y="-279" />
+              <mxPoint x="-700" y="-950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc3_e8c" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="yhaDnNcCBT4VVBDCAUdl-26" value="8. Вывод данных наружу через VPN-туннель">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-606" y="-470" />
+              <mxPoint x="-54" y="-470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc3_e9" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#B20000;strokeWidth=3;dashed=1;exitX=1;exitY=0;entryX=1;entryY=0.5;" target="yhaDnNcCBT4VVBDCAUdl-9" value="9. Воздействие (ЦЕЛЬ): шифрование">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="-699" />
+              <mxPoint x="-560" y="-950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kc3_b9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=9;align=left;verticalAlign=top;" value="9. Воздействие (ЦЕЛЬ): шифрование сервера 1С, СУБД и репозиториев Gitea; удаление резервных копий — остановка учётных процессов и разработки. Прямая выгода: выкуп за расшифровку и за неразглашение ПДн и исходного кода." vertex="1">
+          <mxGeometry height="90" width="275" x="-1150" y="-584" as="geometry" />
+        </mxCell>
+        <mxCell id="kc3_c9" edge="1" parent="1" source="kc3_b9" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="-r0obxcL4KgrFZX8nTF1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCjn9hCTaxj20trMQdj3-2" parent="1" style="strokeColor=#b85450;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#f8cecc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.people.standing_man_2;" value="" vertex="1">
+          <mxGeometry height="62" width="22" x="-424" y="-1290" as="geometry" />
+        </mxCell>
+      </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
