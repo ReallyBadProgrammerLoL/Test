@@ -1,0 +1,374 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="JItnBWarz5YXMGvdXFiE">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-48" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#D6B656,#FF8F8F);strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="159" width="410" x="230" y="-469" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-44" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#9673a6, #ff8f8f);strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="190" width="410" x="268" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-18" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="934" width="582.5" x="-770" y="-1049" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-30" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E51515;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="300" width="380" x="-157.5" y="-349" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6j8U8kHXT8ma1ibuV0W-2" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#FF0080;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Специалиста ИБ&#xa;10.10.15.20&#xa;VLAN 15" vertex="1">
+          <mxGeometry height="73" width="78" x="389.5" y="-870.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-9" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="-r0obxcL4KgrFZX8nTF1-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142.5" y="-978" />
+              <mxPoint x="142.5" y="-839" />
+              <mxPoint x="42.5" y="-839" />
+              <mxPoint x="42.5" y="-834" />
+            </Array>
+            <mxPoint x="51.50000000000023" y="-972.5" as="sourcePoint" />
+            <mxPoint x="102.5" y="-829" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-1" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.storage.cloud;" value="Сеть &quot;интеренет&quot;" vertex="1">
+          <mxGeometry height="106" width="178" x="-81.5" y="-1149" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div&gt;UDP 1194 (VPN)&lt;/div&gt;&lt;div&gt;TCP 443 (HTTPS/OWA)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="136" x="-207.5" y="-1093" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-5" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=default;edgeStyle=orthogonalEdgeStyle;endArrow=none;endFill=0;exitX=0.04;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="-r0obxcL4KgrFZX8nTF1-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-26.5" y="-972.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-13" parent="1" style="text;whiteSpace=wrap;" value="ТСP 8006(WEB UI PROMOX)&#xa;TCP 22(SSH)" vertex="1">
+          <mxGeometry height="50" width="110" x="-312.5" y="-817.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-14" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.security.router_firewall;" value="MikroTik RB3011UiAS-RM&lt;br&gt;10.10.1.1" vertex="1">
+          <mxGeometry height="62" width="78" x="-17.5" y="-1009" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-33" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" target="yhaDnNcCBT4VVBDCAUdl-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-137.5" y="-659" />
+              <mxPoint x="-137.5" y="-299" />
+              <mxPoint x="162.5" y="-299" />
+            </Array>
+            <mxPoint x="-137.5" y="-409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-35" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.89;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" target="yhaDnNcCBT4VVBDCAUdl-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-257.5" y="-665" />
+              <mxPoint x="-257.5" y="-279" />
+              <mxPoint x="-62.5" y="-279" />
+            </Array>
+            <mxPoint x="-207.5" y="-19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-15" parent="1" style="strokeColor=light-dark(#d79b00, #121212);sketch=0;pointerEvents=1;dashed=0;fillColor=#FFE6CC;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.standard_host;" value="Dell PowerEdge R730&#xa;10.10.20.5" vertex="1">
+          <mxGeometry height="82" width="60" x="-317.5" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-397.5" y="-718" />
+              <mxPoint x="-397.5" y="-779" />
+            </Array>
+            <mxPoint x="-317.5" y="-717.9855072463769" as="sourcePoint" />
+            <mxPoint x="-535.5" y="-779" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-20" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="-r0obxcL4KgrFZX8nTF1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-21" parent="1" style="strokeColor=#d79b00;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffe6cc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.directory_server;" value="&lt;span id=&quot;docs-internal-guid-afc8247c-7fff-5377-2152-5904b58ac66c&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline;&quot;&gt;VM [Windows Server 2019]: Контроллер домена&lt;br&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 9pt; white-space: pre-wrap;&quot;&gt;10.10.20.10&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="59" width="72" x="-632" y="-817.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight: normal;&quot; id=&quot;docs-internal-guid-b94e70e8-7fff-42b1-9a45-e83adb658ab0&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;TCP/UDP 389 (&lt;span id=&quot;docs-internal-guid-b5b43d17-7fff-c71c-c175-c9e9a8f62502&quot;&gt;&lt;span style=&quot;font-size: 9pt; background-color: transparent; font-variant: normal; vertical-align: baseline;&quot;&gt;LDAP)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span id=&quot;docs-internal-guid-83331c25-7fff-643f-47cb-11319bbeae0c&quot;&gt;&lt;span style=&quot;font-size: 9pt; background-color: transparent; font-variant: normal; vertical-align: baseline;&quot;&gt;TCP/UDP 88 (&lt;span id=&quot;docs-internal-guid-074a4a5b-7fff-06c1-17bd-e5a9f410eec1&quot;&gt;&lt;span style=&quot;font-size: 9pt; background-color: transparent; font-variant: normal; vertical-align: baseline;&quot;&gt;Kerberos)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span id=&quot;docs-internal-guid-ff66c73f-7fff-8d89-6c76-e7bcd311df69&quot;&gt;&lt;span style=&quot;font-size: 9pt; background-color: transparent; font-variant: normal; vertical-align: baseline;&quot;&gt;TCP/UDP 53 (DNS)&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;TCP 3389(RDP)&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="-535.5" y="-849" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-24" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-257.5" y="-708" />
+              <mxPoint x="-137.5" y="-708" />
+              <mxPoint x="-137.5" y="-839" />
+              <mxPoint x="-31.5" y="-839" />
+            </Array>
+            <mxPoint x="-47.5" y="-839" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-25" parent="1" style="strokeColor=#d79b00;sketch=0;pointerEvents=1;dashed=0;fillColor=#ffe6cc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.fileserver;" value="VM [Ubuntu Linux 22.04]: Сервер приложений 1С&#xa;10.10.20.11" vertex="1">
+          <mxGeometry height="62" width="43" x="-617.5" y="-699" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-26" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" target="-r0obxcL4KgrFZX8nTF1-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-397.5" y="-709" />
+              <mxPoint x="-397.5" y="-650" />
+              <mxPoint x="-574.5" y="-650" />
+            </Array>
+            <mxPoint x="-327.5" y="-689" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-1" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="-r0obxcL4KgrFZX8nTF1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-367.5" y="-549" />
+              <mxPoint x="-367.5" y="-699" />
+            </Array>
+            <mxPoint x="-574.4999999999999" y="-578.5" as="sourcePoint" />
+            <mxPoint x="-317.5" y="-687.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-28" parent="1" style="strokeColor=#d79b00;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffe6cc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.file_server;" value="&lt;div&gt;VM [Ubuntu Linux&lt;/div&gt;&lt;div&gt;22.04]: СУБД&amp;nbsp;PostgreSQL&lt;br&gt;10.10.20.12&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57.99999999999999" width="43" x="-627.5" y="-578" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-29" parent="1" style="text;whiteSpace=wrap;" value="TCP 443(HTTPS WEB UI)" vertex="1">
+          <mxGeometry height="20" width="150" x="192.5" y="-859" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-41" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.87;exitY=0.74;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="yhaDnNcCBT4VVBDCAUdl-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="-680" />
+              <mxPoint x="649" y="-680" />
+            </Array>
+            <mxPoint x="370" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-43" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="yhaDnNcCBT4VVBDCAUdl-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="294" y="-660" />
+              <mxPoint x="380" y="-660" />
+              <mxPoint x="380" y="-610" />
+            </Array>
+            <mxPoint x="390" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-50" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="yhaDnNcCBT4VVBDCAUdl-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="-621" />
+              <mxPoint x="160" y="-450" />
+              <mxPoint x="580" y="-450" />
+              <mxPoint x="580" y="-400" />
+            </Array>
+            <mxPoint x="250" y="-490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-51" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="yhaDnNcCBT4VVBDCAUdl-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="-645" />
+              <mxPoint x="140" y="-389" />
+            </Array>
+            <mxPoint x="300" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-30" parent="1" style="strokeColor=#ffffff;sketch=0;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.workgroup_switch;autosizeText=0;fontSize=12;textShadow=0;" value="DLink DGS-1210-28&#xa;10.10.10.3 &#xa;VLAN 10" vertex="1">
+          <mxGeometry height="50" width="101" x="162.5" y="-678.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-34" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.87;exitY=0.74;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="-r0obxcL4KgrFZX8nTF1-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60.499999999999886" y="-822" as="sourcePoint" />
+            <mxPoint x="242.5" y="-669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-39" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="-r0obxcL4KgrFZX8nTF1-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-77.5" y="-810" />
+              <mxPoint x="-77.5" y="-608" />
+            </Array>
+            <mxPoint x="-77.5" y="-699" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-8" parent="1" style="strokeColor=#ffffff;sketch=0;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.workgroup_switch;autosizeText=0;fontSize=12;textShadow=0;" value="DLink DGS-1210-28&#xa;10.10.1.2&#xa;VLAN 10" vertex="1">
+          <mxGeometry height="50" width="101" x="-47.5" y="-859" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-33" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="Q6j8U8kHXT8ma1ibuV0W-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="92.5" y="-819" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-35" parent="1" style="text;whiteSpace=wrap;" value="TCP 443(HTTPS WEB UI)" vertex="1">
+          <mxGeometry height="20" width="150" x="61.5" y="-817.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-37" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#803CFF;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.file_server;fillStyle=auto;" value="&lt;div&gt;Synology&lt;/div&gt;&lt;div&gt;DS220+&lt;br&gt;10.10.25.10&lt;br&gt;VLAN 25&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="71.5" x="-117.5" y="-608" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-40" parent="1" style="text;whiteSpace=wrap;" value="TCP 445 (SMB)" vertex="1">
+          <mxGeometry height="50" width="110" x="-71.5" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="-r0obxcL4KgrFZX8nTF1-43" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-b94e70e8-7fff-42b1-9a45-e83adb658ab0&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; color: rgb(0, 0, 0);&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;TCP 1540 (ragent),&lt;br&gt;TCP 1541 (rmngr),&lt;br&gt;TCP 1560-1565 (rphost)&lt;br/&gt;TCP 22 (SSH)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="59" width="140" x="-550" y="-719" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-2" parent="1" style="text;whiteSpace=wrap;" value="TCP 5432&#xa;TCP 22 (SSH)" vertex="1">
+          <mxGeometry height="36" width="100" x="-550" y="-593" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-6" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" target="-r0obxcL4KgrFZX8nTF1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-584.5" y="-406" />
+              <mxPoint x="-357.5" y="-406" />
+              <mxPoint x="-357.5" y="-689" />
+            </Array>
+            <mxPoint x="-584.5" y="-406" as="sourcePoint" />
+            <mxPoint x="-357.5000000000002" y="-675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-5" parent="1" style="strokeColor=#d79b00;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffe6cc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.file_server;" value="&lt;div&gt;VM [Windows Server&lt;/div&gt;&lt;div&gt;2019]: Почтовый&lt;/div&gt;&lt;div&gt;сервер MS Exchange&lt;br&gt;10.10.20.15&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57.99999999999999" width="43" x="-632" y="-436.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-7" parent="1" style="text;whiteSpace=wrap;" value="TCP 25 (SMTP)&#xa;TCP443 (ExchangeOWA)&#xa;TCP 3389(RDP)" vertex="1">
+          <mxGeometry height="50" width="152.5" x="-542.5" y="-469" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-15" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" target="-r0obxcL4KgrFZX8nTF1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-347.5" y="-250" />
+              <mxPoint x="-347.5" y="-679" />
+            </Array>
+            <mxPoint x="-347.5" y="-679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-8" parent="1" style="strokeColor=#d79b00;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffe6cc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.file_server;" value="&lt;div&gt;VM [Ubuntu Linux&lt;/div&gt;&lt;div&gt;22.04]: Таск-трекер&lt;/div&gt;&lt;div&gt;Jira&lt;br&gt;10.10.20.16&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57.99999999999999" width="43" x="-627.5" y="-279" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-16" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" target="-r0obxcL4KgrFZX8nTF1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-327.5" y="-950" />
+              <mxPoint x="-327.5" y="-729" />
+            </Array>
+            <mxPoint x="-357.5" y="-848.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-9" parent="1" style="strokeColor=#d79b00;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#ffe6cc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.file_server;" value="&lt;div&gt;VM [Alpine Linux]:&lt;/div&gt;&lt;div&gt;Репозиторий кода&lt;/div&gt;&lt;div&gt;Gitea&lt;br&gt;10.10.20.18&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57.99999999999999" width="43" x="-617.5" y="-979" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-13" parent="1" style="text;whiteSpace=wrap;" value="TCP 3000 (Gitea WebUI) &#xa;TCP 2222 (GitSSH)&#xa;TCP 22 (SysSSH)" vertex="1">
+          <mxGeometry height="52" width="160" x="-550" y="-1019" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-14" parent="1" style="text;whiteSpace=wrap;" value="TCP 8080 (Jira WebUI)&#xa;TCP 22 (SSH)" vertex="1">
+          <mxGeometry height="40" width="142.5" x="-545" y="-299" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 20" vertex="1">
+          <mxGeometry height="30" width="60" x="-532.5" y="-89" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-25" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=light-dark(#e8787d, #5cb3dc);strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.security.guard;" value="&lt;div&gt;VM [Debian Linux]:&lt;/div&gt;&lt;div&gt;Прокси-сервер Squid&lt;br&gt;10.10.50.10&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="88" x="110" y="-221" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-26" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=light-dark(#e8787d, #464329);strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.hubs_and_gateways.vpn_gateway;fillColor2=light-dark(#e51515, #9d4545);strokeColor2=#ffffff;" value="&lt;div&gt;VM [Ubuntu Linux]:&lt;/div&gt;&lt;div&gt;VPN-шлюз&lt;/div&gt;&lt;div&gt;OpenVPN &lt;br&gt;10.10.50.20&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="91" x="-100" y="-199" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-27" parent="1" style="text;whiteSpace=wrap;" value="UDP 1194(VPN)&#xa;TCP 22 (SSH)" vertex="1">
+          <mxGeometry height="40" width="100" x="-57.5" y="-239" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-28" parent="1" style="text;whiteSpace=wrap;" value="TCP 3128 (SquidProxy)&#xa;TCP 22(SSH)" vertex="1">
+          <mxGeometry height="40" width="140" x="22.5" y="-299" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 50" vertex="1">
+          <mxGeometry height="30" width="60" x="2.5" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-36" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Главный бухгалтер&#xa;10.10.30.10" vertex="1">
+          <mxGeometry height="73" width="78" x="311.5" y="-637" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-37" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Бухгалтер 1&#xa;10.10.30.11" vertex="1">
+          <mxGeometry height="73" width="78" x="440" y="-635" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-38" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Бухгалтер 2&#xa;10.10.30.12" vertex="1">
+          <mxGeometry height="77" width="78" x="567" y="-639" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-42" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="yhaDnNcCBT4VVBDCAUdl-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="292" y="-670" />
+              <mxPoint x="531" y="-670" />
+            </Array>
+            <mxPoint x="330" y="-630" as="sourcePoint" />
+            <mxPoint x="414" y="-371.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 30" vertex="1">
+          <mxGeometry height="30" width="60" x="489" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-46" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Руководитель отдела кадров&#xa;10.10.35.10" vertex="1">
+          <mxGeometry height="73" width="78" x="300" y="-444" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-47" parent="1" style="sketch=0;pointerEvents=1;dashed=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="АРМ Специалист отдела кадров&#xa;10.10.35.11" vertex="1">
+          <mxGeometry height="73" width="78" x="489" y="-444" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 35" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="-309" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-54" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="-730" />
+            </Array>
+            <mxPoint x="240" y="-680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-52" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.printer;" value="Kyocera M2040dn&lt;br&gt;10.10.40.10&lt;br&gt;VLAN 40" vertex="1">
+          <mxGeometry height="53" width="120" x="690" y="-625" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-55" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="-r0obxcL4KgrFZX8nTF1-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="-480" />
+              <mxPoint x="118" y="-653" />
+            </Array>
+            <mxPoint x="117.6923076923077" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-53" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.printer;" value="Pantum M7100DW&lt;br&gt;10.10.40.11&lt;br&gt;VLAN 40" vertex="1">
+          <mxGeometry height="53" width="120" x="690" y="-402" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-56" parent="1" style="text;whiteSpace=wrap;" value="TCP 9100 (RAWPrint)&#xa;TCP 80 (HTTPWeb UI)" vertex="1">
+          <mxGeometry height="40" width="140" x="630" y="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-58" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="yhaDnNcCBT4VVBDCAUdl-57" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="-480" />
+            </Array>
+            <mxPoint x="740" y="-402" as="sourcePoint" />
+            <mxPoint x="163" y="-653" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhaDnNcCBT4VVBDCAUdl-57" parent="1" style="text;whiteSpace=wrap;" value="TCP 9100 (RAWPrint)&#xa;TCP 80 (HTTPWeb UI)" vertex="1">
+          <mxGeometry height="40" width="140" x="660" y="-500" as="geometry" />
+        </mxCell>
+      
+    <mxCell id="kc2_title" value="Вектор атаки KC-2: эксплуатация публичного MS Exchange (ProxyLogon) &#8594; захват домена (ZeroLogon) &#8594; эксфильтрация ПДн &#8594; шифрование и выкуп" style="text;html=1;align=left;fontSize=13;fontStyle=1;fontColor=#B20000;" vertex="1" parent="1"><mxGeometry x="-360" y="-1392" width="950" height="24" as="geometry"/></mxCell>
+    <mxCell id="kc2_attacker" value="Атакующий&#10;(внешний, преступная группа, Н3)" style="shape=mxgraph.basic.actor;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=10;" vertex="1" parent="1"><mxGeometry x="-345" y="-1305" width="120" height="85" as="geometry"/></mxCell>
+    <mxCell id="kc2_e1" value="1. Разведка: сканирование периметра, обнаружение опубликованного OWA (HTTPS 443)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="kc2_attacker" target="-r0obxcL4KgrFZX8nTF1-1"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+    <mxCell id="kc2_e2" value="2. Первоначальный доступ: ProxyLogon CVE-2021-26855 + CVE-2021-27065 (HTTPS 443 через DNAT MikroTik) &#8594; веб-шелл на Exchange" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-1" target="yhaDnNcCBT4VVBDCAUdl-5"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-760" y="-1096"/><mxPoint x="-760" y="-407"/></Array></mxGeometry></mxCell>
+    <mxCell id="kc2_b3" value="3. Закрепление: веб-шелл (.aspx) в каталоге OWA + задача планировщика; контекст службы IIS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-985" y="-770" width="260" height="52" as="geometry"/></mxCell>
+    <mxCell id="kc2_b4" value="4. Дамп УЗ: LSASS на Exchange; учётные данные служб; доступ к почтовым ящикам бухгалтерии и руководства" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-985" y="-710" width="260" height="52" as="geometry"/></mxCell>
+    <mxCell id="kc2_b5" value="5. Внутренняя разведка: перечисление AD; выявление ДК, 1С, СУБД и NAS (службы ДК доступны из всех подсетей)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-985" y="-650" width="260" height="56" as="geometry"/></mxCell>
+    <mxCell id="kc2_c3" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc2_b3" target="yhaDnNcCBT4VVBDCAUdl-5"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="kc2_c4" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc2_b4" target="yhaDnNcCBT4VVBDCAUdl-5"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="kc2_c5" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc2_b5" target="yhaDnNcCBT4VVBDCAUdl-5"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="kc2_e6a" value="6. Боковое перемещение: SMB/WinRM (TCP 445/5985) &#8594; контроллер домена" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.3;entryX=0;entryY=0.7;" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-5" target="-r0obxcL4KgrFZX8nTF1-21"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-705" y="-419"/><mxPoint x="-705" y="-793"/></Array></mxGeometry></mxCell>
+    <mxCell id="kc2_e6b" value="6. По УЗ служб 1С и SSH (TCP 1540-1565, 22) &#8594; сервер 1С" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0;entryX=1;entryY=0.5;" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-5" target="-r0obxcL4KgrFZX8nTF1-25"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-560" y="-436"/><mxPoint x="-560" y="-668"/></Array></mxGeometry></mxCell>
+    <mxCell id="kc2_b7a" value="7. Повышение привилегий: ZeroLogon (CVE-2020-1472, Netlogon RPC) &#8594; DCSync &#8594; администратор домена" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-985" y="-870" width="260" height="58" as="geometry"/></mxCell>
+    <mxCell id="kc2_b7b" value="7. Локальный root на 1С/СУБД (Ubuntu 20.04, ядро 5.4): CVE-2021-3156 / CVE-2021-3493" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#B20000;dashed=1;fontColor=#B20000;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-985" y="-590" width="260" height="52" as="geometry"/></mxCell>
+    <mxCell id="kc2_c7a" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc2_b7a" target="-r0obxcL4KgrFZX8nTF1-21"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="kc2_c7b" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc2_b7b" target="-r0obxcL4KgrFZX8nTF1-25"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="kc2_e8a" value="8. Эксфильтрация: дамп PostgreSQL (TCP 5432) &#8212; ПДн работников" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-25" target="-r0obxcL4KgrFZX8nTF1-28"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+    <mxCell id="kc2_e8b" value="8. SMB (TCP 445): NAS &#8212; контрагенты и финансово-учётные архивы" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-21" target="-r0obxcL4KgrFZX8nTF1-37"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-81" y="-793"/></Array></mxGeometry></mxCell>
+    <mxCell id="kc2_e8c" value="8. Вывод данных наружу через скомпрометированный Exchange (HTTPS 443)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;dashed=1;exitX=0;exitY=0.2;entryX=0.2;entryY=1;" edge="1" parent="1" source="yhaDnNcCBT4VVBDCAUdl-5" target="-r0obxcL4KgrFZX8nTF1-1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-820" y="-413"/><mxPoint x="-820" y="-1075"/></Array></mxGeometry></mxCell>
+    <mxCell id="kc2_e9" value="9. Воздействие (ЦЕЛЬ): шифрование" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;strokeColor=#B20000;strokeWidth=3;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=1;" edge="1" parent="1" source="-r0obxcL4KgrFZX8nTF1-28" target="-r0obxcL4KgrFZX8nTF1-37"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-300" y="-549"/></Array></mxGeometry></mxCell>
+    <mxCell id="kc2_b9" value="9. Воздействие (ЦЕЛЬ): шифрование сервера 1С, СУБД, NAS, Exchange и АРМ; удаление почтовых архивов и резервных копий &#8212; остановка учёта. Прямая выгода: выкуп за расшифровку и за неразглашение похищенных ПДн." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B20000;fontColor=#990000;fontStyle=1;fontSize=9;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-985" y="-520" width="275" height="86" as="geometry"/></mxCell>
+    <mxCell id="kc2_c9" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" edge="1" parent="1" source="kc2_b9" target="yhaDnNcCBT4VVBDCAUdl-5"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="kc2_legend" value="Легенда KC-2:&#10;&#8594; красная стрелка = сетевой переход (с номером шага)&#10;пунктирный блок = локальное действие на узле (с номером шага)&#10;розовый блок = недопустимое последствие / выгода" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B20000;fontColor=#B20000;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="-345" y="-170" width="340" height="92" as="geometry"/></mxCell>
+  </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
