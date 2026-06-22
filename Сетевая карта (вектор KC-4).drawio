@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="JItnBWarz5YXMGvdXFiE">
-    <mxGraphModel dx="3708" dy="3395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4222" dy="3659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,9 +344,6 @@
         <mxCell id="yhaDnNcCBT4VVBDCAUdl-57" parent="1" style="text;whiteSpace=wrap;" value="TCP 9100 (RAWPrint)&#xa;TCP 80 (HTTPWeb UI)" vertex="1">
           <mxGeometry height="40" width="140" x="660" y="-500" as="geometry" />
         </mxCell>
-        <mxCell id="kc4_title" parent="1" style="text;html=1;align=left;fontSize=13;fontStyle=1;fontColor=#B20000;" value="Вектор атаки KC-4: внутренний нарушитель — администратор ИТ/ИБ (Н2). Злоупотребление полномочиями → НСД к содержанию ПДн → эксфильтрация и монетизация → подмена платёжных реквизитов и сокрытие следов" vertex="1">
-          <mxGeometry height="24" width="1080" x="-360" y="-1392" as="geometry" />
-        </mxCell>
         <mxCell id="kc4_e0" edge="1" parent="1" source="8zkQjTOlUDZeRehwTq9E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E60000;strokeWidth=2;endArrow=block;endFill=1;fontColor=#B20000;fontStyle=1;fontSize=10;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q6j8U8kHXT8ma1ibuV0W-2" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -451,9 +448,6 @@
         </mxCell>
         <mxCell id="kc4_c9" edge="1" parent="1" source="kc4_b9" style="endArrow=none;dashed=1;strokeColor=#B20000;strokeWidth=1;html=1;" target="-r0obxcL4KgrFZX8nTF1-25">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kc4_legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B20000;fontColor=#B20000;fontSize=10;align=left;verticalAlign=top;" value="Легенда KC-4:&#xa;→ красная стрелка = сетевой переход (с номером шага)&#xa;пунктирный блок = локальное действие на узле (с номером шага)&#xa;розовый блок = недопустимое последствие / выгода&#xa;Нарушитель внутренний (Н2): доступ преимущественно по легитимным каналам VLAN 15" vertex="1">
-          <mxGeometry height="105" width="360" x="120" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="8zkQjTOlUDZeRehwTq9E-1" parent="1" style="strokeColor=#b85450;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#f8cecc;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.people.standing_man_2;" value="&#xa;&lt;span style=&quot;color: rgb(178, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Внутренний нарушитель: легитимные права админа, привилегированное АРМ (VLAN 15)&lt;/span&gt;&#xa;&#xa;" vertex="1">
           <mxGeometry height="62" width="22" x="810" y="-911" as="geometry" />
