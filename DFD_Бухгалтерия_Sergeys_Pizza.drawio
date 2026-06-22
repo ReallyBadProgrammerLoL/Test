@@ -4,79 +4,79 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fillColor=#F7F7F7;strokeColor=#999999;fontSize=17;spacing=8;strokeWidth=5;" value="&lt;font&gt;&lt;b&gt;Условные обозначения&lt;/b&gt;&lt;br&gt;&lt;br&gt;Прямоугольник — внешняя сущность (ВС)&lt;br&gt;Эллипс — процесс (P)&lt;br&gt;Цилиндр — хранилище данных (D)&lt;br&gt;Пунктир — граница зоны&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#C0392B&quot;&gt;━━&lt;/font&gt; ПДн работников (з/п, реквизиты)&lt;br&gt;&lt;font color=&quot;#1E8449&quot;&gt;━━&lt;/font&gt; Финансово-учётные данные&lt;br&gt;&lt;font color=&quot;#2471A3&quot;&gt;━━&lt;/font&gt; Платёжные данные (банк)&lt;br&gt;&lt;font color=&quot;#9A6A1A&quot;&gt;━━&lt;/font&gt; Служебные данные (аутентиф., журналы, печать, СЗИ)&lt;br&gt;&lt;br&gt;Двойная стрелка — чтение/запись&lt;/font&gt;" vertex="1">
+        <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fillColor=#F7F7F7;strokeColor=#999999;fontSize=12;spacing=8;strokeWidth=5;" value="&lt;font&gt;&lt;b&gt;Условные обозначения&lt;/b&gt;&lt;br&gt;&lt;br&gt;Прямоугольник — внешняя сущность (ВС)&lt;br&gt;Эллипс — процесс (P)&lt;br&gt;Цилиндр — хранилище данных (D)&lt;br&gt;Пунктир — граница зоны&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#C0392B&quot;&gt;━━&lt;/font&gt; ПДн работников (з/п, реквизиты)&lt;br&gt;&lt;font color=&quot;#1E8449&quot;&gt;━━&lt;/font&gt; Финансово-учётные данные&lt;br&gt;&lt;font color=&quot;#2471A3&quot;&gt;━━&lt;/font&gt; Платёжные данные (банк)&lt;br&gt;&lt;font color=&quot;#9A6A1A&quot;&gt;━━&lt;/font&gt; Служебные данные (аутентиф., журналы, печать, СЗИ)&lt;br&gt;&lt;br&gt;Двойная стрелка — чтение/запись&lt;/font&gt;" vertex="1">
           <mxGeometry height="299" width="440.5" x="2359.995" y="4180" as="geometry" />
         </mxCell>
-        <mxCell id="vs6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС6 Банк (ДБО, эквайринг)" vertex="1">
+        <mxCell id="vs6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС6 Банк (ДБО, эквайринг)" vertex="1">
           <mxGeometry height="64" width="160" x="426" y="3399.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС7 Поставщики / контрагенты (ЭДО)" vertex="1">
+        <mxCell id="vs7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС7 Поставщики / контрагенты (ЭДО)" vertex="1">
           <mxGeometry height="64" width="160" x="1873.33" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС8 Торговые точки (кассы / ОФД)" vertex="1">
+        <mxCell id="vs8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС8 Торговые точки (кассы / ОФД)" vertex="1">
           <mxGeometry height="64" width="160" x="1709.43" y="2801.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС9 ФНС России" vertex="1">
+        <mxCell id="vs9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС9 ФНС России" vertex="1">
           <mxGeometry height="46" width="250" x="1334.67" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС10 СФР" vertex="1">
+        <mxCell id="vs10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС10 СФР" vertex="1">
           <mxGeometry height="46" width="250" x="1074.67" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС1 Главный бухгалтер" vertex="1">
+        <mxCell id="vs1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС1 Главный бухгалтер" vertex="1">
           <mxGeometry height="56" width="160" x="255" y="3735.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС2 Бухгалтер" vertex="1">
+        <mxCell id="vs2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС2 Бухгалтер" vertex="1">
           <mxGeometry height="56" width="160" x="1720.1" y="3083.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС3 Отдел кадров (источник данных для з/п)" vertex="1">
+        <mxCell id="vs3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС3 Отдел кадров (источник данных для з/п)" vertex="1">
           <mxGeometry height="60" width="160" x="685.33" y="3403.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС5 Руководство (потребитель аналитики)" vertex="1">
+        <mxCell id="vs5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС5 Руководство (потребитель аналитики)" vertex="1">
           <mxGeometry height="60" width="160" x="2107.33" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="vs4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=17;verticalAlign=middle;" value="ВС4 Администратор ИТ/ИБ" vertex="1">
+        <mxCell id="vs4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23364A;strokeColor=#0F1A26;fontColor=#FFFFFF;fontSize=12;verticalAlign=middle;" value="ВС4 Администратор ИТ/ИБ" vertex="1">
           <mxGeometry height="56" width="160" x="536" y="4135.26" as="geometry" />
         </mxCell>
-        <mxCell id="p1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P1 Начисление и выплата заработной платы" vertex="1">
+        <mxCell id="p1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P1 Начисление и выплата заработной платы" vertex="1">
           <mxGeometry height="70" width="160" x="439.33" y="3564.26" as="geometry" />
         </mxCell>
-        <mxCell id="p2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P2 Расчёт налогов, взносов и сдача отчётности" vertex="1">
+        <mxCell id="p2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P2 Расчёт налогов, взносов и сдача отчётности" vertex="1">
           <mxGeometry height="72" width="160" x="1338" y="3882.26" as="geometry" />
         </mxCell>
-        <mxCell id="p3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P3 Расчёты с поставщиками и контрагентами" vertex="1">
+        <mxCell id="p3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P3 Расчёты с поставщиками и контрагентами" vertex="1">
           <mxGeometry height="70" width="160" x="1720.1" y="3218.26" as="geometry" />
         </mxCell>
-        <mxCell id="p4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P4 Учёт выручки торговых точек" vertex="1">
+        <mxCell id="p4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P4 Учёт выручки торговых точек" vertex="1">
           <mxGeometry height="70" width="160" x="1709.43" y="2912.26" as="geometry" />
         </mxCell>
-        <mxCell id="p5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P5 Прочие учётные операции (подотчёт, ОС, ТМЦ)" vertex="1">
+        <mxCell id="p5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P5 Прочие учётные операции (подотчёт, ОС, ТМЦ)" vertex="1">
           <mxGeometry height="72" width="160" x="2315.83" y="3882.26" as="geometry" />
         </mxCell>
-        <mxCell id="p8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P8 Внутренняя аналитика и отчётность" vertex="1">
+        <mxCell id="p8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P8 Внутренняя аналитика и отчётность" vertex="1">
           <mxGeometry height="72" width="160" x="2107.33" y="4302.26" as="geometry" />
         </mxCell>
-        <mxCell id="p6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P6 Аутентификация и разграничение доступа" vertex="1">
+        <mxCell id="p6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P6 Аутентификация и разграничение доступа" vertex="1">
           <mxGeometry height="72" width="160" x="20" y="4302.26" as="geometry" />
         </mxCell>
-        <mxCell id="p7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=17;" value="P7 Администрирование и защита информации (СЗИ)" vertex="1">
+        <mxCell id="p7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4A3F6B;strokeColor=#2E2647;fontColor=#FFFFFF;fontSize=12;" value="P7 Администрирование и защита информации (СЗИ)" vertex="1">
           <mxGeometry height="72" width="160" x="536" y="4302.26" as="geometry" />
         </mxCell>
-        <mxCell id="d1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#5A1A1A;strokeColor=#2E0A0A;fontColor=#FFFFFF;fontSize=17;boundedLbl=1;backgroundOutline=1;size=12;" value="D1 База 1С:Бухгалтерия/ЗУП (СУБД) — ПДн работников и контрагентов" vertex="1">
+        <mxCell id="d1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#5A1A1A;strokeColor=#2E0A0A;fontColor=#FFFFFF;fontSize=12;boundedLbl=1;backgroundOutline=1;size=12;" value="D1 База 1С:Бухгалтерия/ЗУП (СУБД) — ПДн работников и контрагентов" vertex="1">
           <mxGeometry height="96" width="170" x="2102.33" y="4095.26" as="geometry" />
         </mxCell>
-        <mxCell id="d2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#3A2E1A;strokeColor=#1C150A;fontColor=#FFFFFF;fontSize=17;boundedLbl=1;backgroundOutline=1;size=12;" value="D2 Служба каталога (AD) контроллер домена" vertex="1">
+        <mxCell id="d2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#3A2E1A;strokeColor=#1C150A;fontColor=#FFFFFF;fontSize=12;boundedLbl=1;backgroundOutline=1;size=12;" value="D2 Служба каталога (AD) контроллер домена" vertex="1">
           <mxGeometry height="84" width="170" x="894.67" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="d3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#3A2E1A;strokeColor=#1C150A;fontColor=#FFFFFF;fontSize=17;boundedLbl=1;backgroundOutline=1;size=12;" value="D3 Электронный архив / файловое хранилище (сканы, отчёты, копии)" vertex="1">
+        <mxCell id="d3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#3A2E1A;strokeColor=#1C150A;fontColor=#FFFFFF;fontSize=12;boundedLbl=1;backgroundOutline=1;size=12;" value="D3 Электронный архив / файловое хранилище (сканы, отчёты, копии)" vertex="1">
           <mxGeometry height="96" width="180" x="1594.67" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="d4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#3A2E1A;strokeColor=#1C150A;fontColor=#FFFFFF;fontSize=17;boundedLbl=1;backgroundOutline=1;size=12;" value="D4 Журналы событий безопасности" vertex="1">
+        <mxCell id="d4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#3A2E1A;strokeColor=#1C150A;fontColor=#FFFFFF;fontSize=12;boundedLbl=1;backgroundOutline=1;size=12;" value="D4 Журналы событий безопасности" vertex="1">
           <mxGeometry height="84" width="160" x="20" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="prn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E5631;strokeColor=#0E2C18;fontColor=#FFFFFF;fontSize=17;" value="Принтер бухгалтерии (Kyocera M2040dn)" vertex="1">
+        <mxCell id="prn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E5631;strokeColor=#0E2C18;fontColor=#FFFFFF;fontSize=12;" value="Принтер бухгалтерии (Kyocera M2040dn)" vertex="1">
           <mxGeometry height="64" width="160" x="466" y="4475.26" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="vs3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;entryX=0.75;entryY=0;" target="p1" value="табели, приказы по кадрам, штатное расписание">
+        <mxCell id="e1" edge="1" parent="1" source="vs3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.5;exitY=1;entryX=0.75;entryY=0;" target="p1" value="табели, приказы по кадрам, штатное расписание">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="68.5" y="-39.5" as="offset" />
             <Array as="points">
@@ -85,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="vs1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=0;entryX=0.3334;entryY=1;" target="p1" value="утверждение начисления з/п">
+        <mxCell id="e2" edge="1" parent="1" source="vs1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=0;entryX=0.3334;entryY=1;" target="p1" value="утверждение начисления з/п">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-14.16" as="offset" />
             <Array as="points">
@@ -96,7 +96,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8334;exitY=1;entryX=0.3334;entryY=0;" target="d1" value="чтение / запись начислений">
+        <mxCell id="e3" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8334;exitY=1;entryX=0.3334;entryY=0;" target="d1" value="чтение / запись начислений">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="578.67" y="186.5" as="offset" />
             <Array as="points">
@@ -107,7 +107,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.1667;exitY=1;entryX=0.3333;entryY=0;" target="vs1" value="ведомость, расчётный листок">
+        <mxCell id="e4" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.1667;exitY=1;entryX=0.3333;entryY=0;" target="vs1" value="ведомость, расчётный листок">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-44.34" y="39.5" as="offset" />
             <Array as="points">
@@ -116,7 +116,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=0;entryX=0.6667;entryY=1;" target="vs6" value="платёжный реестр (з/п)">
+        <mxCell id="e5" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=0;entryX=0.6667;entryY=1;" target="vs6" value="платёжный реестр (з/п)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-11.67" as="offset" />
             <Array as="points">
@@ -127,7 +127,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="vs6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.3333;exitY=1;entryX=0.25;entryY=0;" target="p1" value="выписка / статус платежа">
+        <mxCell id="e6" edge="1" parent="1" source="vs6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.3333;exitY=1;entryX=0.25;entryY=0;" target="p1" value="выписка / статус платежа">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-5" as="offset" />
             <Array as="points">
@@ -135,7 +135,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.3333;entryY=0;" target="prn" value="печать ведомостей">
+        <mxCell id="e7" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.3333;entryY=0;" target="prn" value="печать ведомостей">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-35" as="offset" />
             <Array as="points">
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e8" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.6667;exitY=1;entryX=0.5;entryY=0;" target="d3" value="расчётные листки (архив)">
+        <mxCell id="e8" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.6667;exitY=1;entryX=0.5;entryY=0;" target="d3" value="расчётные листки (архив)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="174.84" y="359.5" as="offset" />
             <Array as="points">
@@ -155,7 +155,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e9" edge="1" parent="1" source="vs1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="p2" value="команда формирования отчётности">
+        <mxCell id="e9" edge="1" parent="1" source="vs1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" target="p2" value="команда формирования отчётности">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="492" y="29.5" as="offset" />
             <Array as="points">
@@ -164,7 +164,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e10" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.875;exitY=1;entryX=0.1667;entryY=0;" target="d1" value="чтение данных для отчётности">
+        <mxCell id="e10" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.875;exitY=1;entryX=0.1667;entryY=0;" target="d1" value="чтение данных для отчётности">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="271.84" y="49.5" as="offset" />
             <Array as="points">
@@ -173,7 +173,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e11" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.625;exitY=1;entryX=0.6666;entryY=0;" target="vs9" value="отчёты, ЕНП">
+        <mxCell id="e11" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.625;exitY=1;entryX=0.6666;entryY=0;" target="vs9" value="отчёты, ЕНП">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="53.66" as="offset" />
             <Array as="points">
@@ -184,7 +184,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e12" edge="1" parent="1" source="vs9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.3333;exitY=0;entryX=0.5;entryY=1;" target="p2" value="сверки ЕНС, квитанции">
+        <mxCell id="e12" edge="1" parent="1" source="vs9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.3333;exitY=0;entryX=0.5;entryY=1;" target="p2" value="сверки ЕНС, квитанции">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="22" as="offset" />
             <Array as="points">
@@ -193,7 +193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e13" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.375;exitY=1;entryX=0.6666;entryY=0;" target="vs10" value="форма ЕФС-1">
+        <mxCell id="e13" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.375;exitY=1;entryX=0.6666;entryY=0;" target="vs10" value="форма ЕФС-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="96.66" as="offset" />
             <Array as="points">
@@ -204,7 +204,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e14" edge="1" parent="1" source="vs10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.3333;exitY=0;entryX=0.25;entryY=1;" target="p2" value="квитанция о приёме">
+        <mxCell id="e14" edge="1" parent="1" source="vs10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.3333;exitY=0;entryX=0.25;entryY=1;" target="p2" value="квитанция о приёме">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="132" as="offset" />
             <Array as="points">
@@ -214,7 +214,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e15" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.125;exitY=1;entryX=0.6667;entryY=0;" target="prn" value="печать отчётности">
+        <mxCell id="e15" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.125;exitY=1;entryX=0.6667;entryY=0;" target="prn" value="печать отчётности">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="111.51" as="offset" />
             <Array as="points">
@@ -225,7 +225,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e16" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.75;exitY=1;entryX=0.25;entryY=0;" target="d3" value="архивация копий отчётности">
+        <mxCell id="e16" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.75;exitY=1;entryX=0.25;entryY=0;" target="d3" value="архивация копий отчётности">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="112.84" as="offset" />
             <Array as="points">
@@ -235,7 +235,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e17" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="p3" value="ввод первичных документов">
+        <mxCell id="e17" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="p3" value="ввод первичных документов">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="16" as="offset" />
             <Array as="points">
@@ -243,7 +243,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e18" edge="1" parent="1" source="vs7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=0;entryX=0.7143;entryY=1;" target="p3" value="счета и первичка (ЭДО)">
+        <mxCell id="e18" edge="1" parent="1" source="vs7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=0;entryX=0.7143;entryY=1;" target="p3" value="счета и первичка (ЭДО)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="27.81" as="offset" />
             <Array as="points">
@@ -254,7 +254,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e19" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.5714;exitY=1;entryX=0.3334;entryY=0;" target="vs7" value="акты сверки, подтверждения">
+        <mxCell id="e19" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.5714;exitY=1;entryX=0.3334;entryY=0;" target="vs7" value="акты сверки, подтверждения">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="12.58" as="offset" />
             <Array as="points">
@@ -264,7 +264,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e20" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8571;exitY=1;entryX=0.5;entryY=0;" target="d1" value="регистрация / история проводок">
+        <mxCell id="e20" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8571;exitY=1;entryX=0.5;entryY=0;" target="d1" value="регистрация / история проводок">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="163.04" as="offset" />
             <Array as="points">
@@ -275,7 +275,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e21" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.2857;exitY=1;entryX=0.75;entryY=0;" target="vs6" value="платёжные поручения">
+        <mxCell id="e21" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.2857;exitY=1;entryX=0.75;entryY=0;" target="vs6" value="платёжные поручения">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-540.4" y="39.5" as="offset" />
             <Array as="points">
@@ -286,7 +286,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e22" edge="1" parent="1" source="vs6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.5;exitY=0;entryX=0.1428;entryY=1;" target="p3" value="выписки">
+        <mxCell id="e22" edge="1" parent="1" source="vs6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.5;exitY=0;entryX=0.1428;entryY=1;" target="p3" value="выписки">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-578.97" y="49.5" as="offset" />
             <Array as="points">
@@ -295,7 +295,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e23" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.4286;exitY=1;entryX=0.75;entryY=0;" target="d3" value="оригиналы/сканы документов">
+        <mxCell id="e23" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.4286;exitY=1;entryX=0.75;entryY=0;" target="d3" value="оригиналы/сканы документов">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-74.5" as="offset" />
             <Array as="points">
@@ -305,7 +305,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e24" edge="1" parent="1" source="vs8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="p4" value="выгрузка выручки (ОФД)">
+        <mxCell id="e24" edge="1" parent="1" source="vs8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="p4" value="выгрузка выручки (ОФД)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -313,7 +313,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e25" edge="1" parent="1" source="vs6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.25;exitY=0;entryX=0.2;entryY=1;" target="p4" value="данные эквайринга">
+        <mxCell id="e25" edge="1" parent="1" source="vs6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#2471A3;fontColor=#2471A3;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.25;exitY=0;entryX=0.2;entryY=1;" target="p4" value="данные эквайринга">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-445.21" y="196.5" as="offset" />
             <Array as="points">
@@ -323,7 +323,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e26" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6666;exitY=0;entryX=0.6;entryY=1;" target="p4" value="сверка выручки">
+        <mxCell id="e26" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6666;exitY=0;entryX=0.6;entryY=1;" target="p4" value="сверка выручки">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="15.66" as="offset" />
             <Array as="points">
@@ -334,7 +334,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e27" edge="1" parent="1" source="p4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8;exitY=1;entryX=0.8334;entryY=0;" target="d1" value="запись выручки">
+        <mxCell id="e27" edge="1" parent="1" source="p4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8;exitY=1;entryX=0.8334;entryY=0;" target="d1" value="запись выручки">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="173.29" as="offset" />
             <Array as="points">
@@ -345,7 +345,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e28" edge="1" parent="1" source="p4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.4;exitY=1;entryX=0.3333;entryY=0;" target="vs2" value="сводка по выручке">
+        <mxCell id="e28" edge="1" parent="1" source="p4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.4;exitY=1;entryX=0.3333;entryY=0;" target="vs2" value="сводка по выручке">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
             <Array as="points">
@@ -353,7 +353,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e29" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.8333;exitY=1;entryX=0.6667;entryY=0;" target="p5" value="авансовые отчёты (ПДн), ТМЦ/ОС">
+        <mxCell id="e29" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#C0392B;fontColor=#C0392B;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.8333;exitY=1;entryX=0.6667;entryY=0;" target="p5" value="авансовые отчёты (ПДн), ТМЦ/ОС">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="282.53" as="offset" />
             <Array as="points">
@@ -364,7 +364,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e30" edge="1" parent="1" source="p5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.6667;entryY=0;" target="d1" value="чтение / запись">
+        <mxCell id="e30" edge="1" parent="1" source="p5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.6667;entryY=0;" target="d1" value="чтение / запись">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45.58" y="-49.5" as="offset" />
             <Array as="points">
@@ -373,7 +373,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e31" edge="1" parent="1" source="p5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3334;exitY=0;entryX=0.6666;entryY=1;" target="vs2" value="результаты учёта">
+        <mxCell id="e31" edge="1" parent="1" source="p5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3334;exitY=0;entryX=0.6666;entryY=1;" target="vs2" value="результаты учёта">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="269.21" as="offset" />
             <Array as="points">
@@ -383,7 +383,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e32" edge="1" parent="1" source="vs5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=0;entryX=0.6667;entryY=1;" target="p8" value="запрос аналитики">
+        <mxCell id="e32" edge="1" parent="1" source="vs5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=0;entryX=0.6667;entryY=1;" target="p8" value="запрос аналитики">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
             <Array as="points">
@@ -394,7 +394,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e33" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="p8" value="данные проводок">
+        <mxCell id="e33" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="p8" value="данные проводок">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
             <Array as="points">
@@ -402,7 +402,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e34" edge="1" parent="1" source="p8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.3334;exitY=1;entryX=0.3334;entryY=0;" target="vs5" value="финансовая аналитика, отчёты">
+        <mxCell id="e34" edge="1" parent="1" source="p8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#1E8449;fontColor=#1E8449;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.3334;exitY=1;entryX=0.3334;entryY=0;" target="vs5" value="финансовая аналитика, отчёты">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
             <Array as="points">
@@ -410,7 +410,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e35" edge="1" parent="1" source="vs1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.25;exitY=1;entryX=0.6;entryY=0;" target="p6" value="запрос аутентификации">
+        <mxCell id="e35" edge="1" parent="1" source="vs1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.25;exitY=1;entryX=0.6;entryY=0;" target="p6" value="запрос аутентификации">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-47" as="offset" />
             <Array as="points">
@@ -421,7 +421,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e36" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=1;entryX=0.4;entryY=0;" target="p6" value="запрос аутентификации">
+        <mxCell id="e36" edge="1" parent="1" source="vs2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=1;entryX=0.4;entryY=0;" target="p6" value="запрос аутентификации">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-211.71" y="524.5" as="offset" />
             <Array as="points">
@@ -432,7 +432,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e37" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=1;entryX=0.3333;entryY=0;" target="d2" value="проверка УЗ (LDAP/Kerberos)">
+        <mxCell id="e37" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=1;entryX=0.3333;entryY=0;" target="d2" value="проверка УЗ (LDAP/Kerberos)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="387.83" y="29.5" as="offset" />
             <Array as="points">
@@ -441,7 +441,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e38" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8;exitY=0;entryX=0.5;entryY=1;" target="vs1" value="разрешение доступа">
+        <mxCell id="e38" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.8;exitY=0;entryX=0.5;entryY=1;" target="vs1" value="разрешение доступа">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-120.5" as="offset" />
             <Array as="points">
@@ -451,7 +451,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e39" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.2;exitY=0;entryX=0.1666;entryY=1;" target="vs2" value="разрешение доступа">
+        <mxCell id="e39" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.2;exitY=0;entryX=0.1666;entryY=1;" target="vs2" value="разрешение доступа">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-281.88" y="534.5" as="offset" />
             <Array as="points">
@@ -461,7 +461,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e40" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=1;entryX=0.3333;entryY=0;" target="d4" value="события аутентификации">
+        <mxCell id="e40" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=1;entryX=0.3333;entryY=0;" target="d4" value="события аутентификации">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
             <Array as="points">
@@ -469,7 +469,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e41" edge="1" parent="1" source="vs4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=1;entryX=0.6667;entryY=0;" target="p7" value="администрирование, управление СЗИ">
+        <mxCell id="e41" edge="1" parent="1" source="vs4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.6667;exitY=1;entryX=0.6667;entryY=0;" target="p7" value="администрирование, управление СЗИ">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
             <Array as="points">
@@ -480,7 +480,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e42" edge="1" parent="1" source="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.6667;exitY=1;entryX=0.6666;entryY=0;" target="d2" value="управление УЗ и ролями">
+        <mxCell id="e42" edge="1" parent="1" source="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;curved=0;noEdgeStyle=1;orthogonal=1;exitX=0.6667;exitY=1;entryX=0.6666;entryY=0;" target="d2" value="управление УЗ и ролями">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="148.16" y="39.5" as="offset" />
             <Array as="points">
@@ -491,7 +491,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e43" edge="1" parent="1" source="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=1;entryX=0.6667;entryY=0;" target="d4" value="настройка журналирования / чтение">
+        <mxCell id="e43" edge="1" parent="1" source="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=1;entryX=0.6667;entryY=0;" target="d4" value="настройка журналирования / чтение">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-104.67" y="39.5" as="offset" />
             <Array as="points">
@@ -502,7 +502,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e44" edge="1" parent="1" source="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=17;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=0;entryX=0.3333;entryY=1;" target="vs4" value="статус СЗИ, отчёты аудита">
+        <mxCell id="e44" edge="1" parent="1" source="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=12;strokeColor=#9A6A1A;fontColor=#9A6A1A;strokeWidth=1.5;endArrow=block;endFill=1;noEdgeStyle=1;orthogonal=1;curved=0;exitX=0.3333;exitY=0;entryX=0.3333;entryY=1;" target="vs4" value="статус СЗИ, отчёты аудита">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
             <Array as="points">
